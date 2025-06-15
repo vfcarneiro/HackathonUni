@@ -19,7 +19,7 @@ public class HackathonApp {
         Empresa google = new Empresa("Google");
         Empresa oracle = new Empresa("Oracle");
 
-        // criação de pessoas
+        // criação de pessoas (professores, jurados e alunos)
         Profissional orientador1 = new Profissional("Prof. Daniel", pucMinas);
         Profissional orientador2 = new Profissional("Prof. Ana", pucMinas);
 

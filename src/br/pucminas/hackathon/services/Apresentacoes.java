@@ -21,7 +21,7 @@ public class Apresentacoes {
         return instancia;
     }
 
-    // O método deve aceitar um objeto 'Apresentacao' do pacote 'model'
+
     public void adicionarApresentacao(Apresentacao apresentacao) {
         this.listaDeApresentacoes.add(apresentacao);
     }
