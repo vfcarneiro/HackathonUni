@@ -50,9 +50,9 @@ public class HackathonApp {
         // adiciona um projeto diferente para cada equipe
         System.out.println("\n--- Criando Projetos ---");
         Projeto projeto1 = new Projeto("Sistema de Gestão de Biblioteca", orientador1, equipe1);
-        Projeto projeto2 = new Projeto("App de Caronas Universitárias", orientador2, equipe2);
-        System.out.println("Projeto '" + projeto1.getNome() + "' atribuído à equipe " + equipe1.getNome());
-        System.out.println("Projeto '" + projeto2.getNome() + "' atribuído à equipe " + equipe2.getNome());
+        Projeto projeto2 = new Projeto("Aplicativo de Caronas Universitárias", orientador2, equipe2);
+        System.out.println("Projeto '" + projeto1.getNome() + "' é da equipe " + equipe1.getNome());
+        System.out.println("Projeto '" + projeto2.getNome() + "' é da equipe " + equipe2.getNome());
 
         // criação de uma banca de avaliação cada projeto (com 4 jurados)
         System.out.println("\n--- Montando as Bancas ---");
@@ -100,6 +100,6 @@ public class HackathonApp {
             aprovados.forEach(System.out::println);
         }
 
-        System.out.println("\n--- Fim da Simulação ---");
+        System.out.println("\n--- Fim  ---");
     }
 }
