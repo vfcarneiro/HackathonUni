@@ -21,7 +21,7 @@ public class Apresentacao implements Avaliavel {
         return projeto;
     }
 
-    // Método da interface Avaliavel.
+
     @Override
     public void avaliar() {
         System.out.println("Avaliando apresentação do projeto: " + projeto.getNome());
